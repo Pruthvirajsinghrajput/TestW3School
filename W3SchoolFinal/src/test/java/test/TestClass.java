@@ -48,14 +48,14 @@ public class TestClass extends Base{
 //		testId=101;
 //		pomClass.MehtodTutorials();
 //	}
-	@Test(priority =2)
-	public void test2() throws InterruptedException {
-		testId=102;
-		boolean b2=pomClass.isTutorials();
-		softAssert.assertEquals(b2,"true");
-		System.out.println(b2);
-	}
-	@Test(priority =3)
+//	@Test(priority =2)
+//	public void test2() throws InterruptedException {
+//		testId=102;
+//		boolean b2=pomClass.isTutorials();
+//		softAssert.assertEquals(b2,"true");
+//		System.out.println(b2);
+//	}
+//	@Test(priority =3)
 	public void test3() throws InterruptedException {
 		testId=103;
 		pomClass.MehtodJavasc();
