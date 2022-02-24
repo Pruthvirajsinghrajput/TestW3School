@@ -43,11 +43,11 @@ public class TestClass extends Base{
 		pomClass=new PomClass(driver);
 	
 	}
-	@Test(priority =1)
-	public void test1() {
-		testId=101;
-		pomClass.MehtodTutorials();
-	}
+//	@Test(priority =1)
+//	public void test1() {
+//		testId=101;
+//		pomClass.MehtodTutorials();
+//	}
 	@Test(priority =2)
 	public void test2() throws InterruptedException {
 		testId=102;
